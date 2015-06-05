@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -12,10 +13,61 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleAspectFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Z4-1Y-y6U">
+                                <rect key="frame" x="-80" y="0.0" width="640" height="464"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMN-DD-vS5">
+                                <rect key="frame" x="289" y="28" width="82" height="150"/>
+                                <state key="normal" image="wine.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g9-QE-KTg">
+                                <rect key="frame" x="199" y="157" width="82" height="150"/>
+                                <state key="normal" image="wine.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpS-tE-iQa">
+                                <rect key="frame" x="365" y="157" width="82" height="150"/>
+                                <state key="normal" image="wine.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AS-Fo-864">
+                                <rect key="frame" x="26" y="157" width="82" height="150"/>
+                                <state key="normal" image="wine.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTU-Zh-G4t">
+                                <rect key="frame" x="116" y="28" width="82" height="150"/>
+                                <state key="normal" image="wine.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Z4-1Y-y6U" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-96" id="6Cd-0b-wUv"/>
+                            <constraint firstAttribute="centerX" secondItem="4g9-QE-KTg" secondAttribute="centerX" id="8cB-AA-ppY"/>
+                            <constraint firstAttribute="centerY" secondItem="QpS-tE-iQa" secondAttribute="centerY" constant="-72" id="AFU-Jb-a8R"/>
+                            <constraint firstAttribute="centerY" secondItem="4g9-QE-KTg" secondAttribute="centerY" constant="-72" id="Eky-H9-FtX"/>
+                            <constraint firstAttribute="centerX" secondItem="7AS-Fo-864" secondAttribute="centerX" constant="173" id="NXC-N9-qnZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5Z4-1Y-y6U" secondAttribute="bottom" constant="-144" id="PN4-5W-2PD"/>
+                            <constraint firstAttribute="centerX" secondItem="zTU-Zh-G4t" secondAttribute="centerX" constant="83" id="U1Y-AT-sh2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Z4-1Y-y6U" secondAttribute="trailing" constant="-96" id="ayO-fH-O89"/>
+                            <constraint firstAttribute="centerX" secondItem="QpS-tE-iQa" secondAttribute="centerX" constant="-166" id="cW6-95-I6h"/>
+                            <constraint firstAttribute="centerY" secondItem="7AS-Fo-864" secondAttribute="centerY" constant="-72" id="gjQ-1d-nAG"/>
+                            <constraint firstAttribute="centerY" secondItem="fMN-DD-vS5" secondAttribute="centerY" constant="57" id="gpK-2p-pil"/>
+                            <constraint firstItem="5Z4-1Y-y6U" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="lCW-fc-7e7"/>
+                            <constraint firstAttribute="centerX" secondItem="fMN-DD-vS5" secondAttribute="centerX" constant="-90" id="uPe-xf-V9h"/>
+                            <constraint firstAttribute="centerY" secondItem="zTU-Zh-G4t" secondAttribute="centerY" constant="57" id="wbO-HO-bBN"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -24,4 +76,8 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="640" height="464"/>
+        <image name="wine.png" width="82" height="150"/>
+    </resources>
 </document>
