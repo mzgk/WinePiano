@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import AVFoundation
+
+class SEManager: NSObject {
+    var player:AVAudioPlayer?
+
+    func sePlay(soundName: String) {
+        let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent(soundName)
+        let url:NSURL? = NSURL.fileURLWithPath(soundPath)
+        player = AVAudioPlayer(contentsOfURL: url, error: nil)
+        player?.prepareToPlay()
+        player?.play()
+    }
+}
