@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F9AE9C1B21947A009CB430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9AE9B1B21947A009CB430 /* AppDelegate.swift */; };
+		32F9AE9E1B21947A009CB430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9AE9D1B21947A009CB430 /* ViewController.swift */; };
+		32F9AEA11B21947A009CB430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AE9F1B21947A009CB430 /* Main.storyboard */; };
+		32F9AEA31B21947A009CB430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEA21B21947A009CB430 /* Images.xcassets */; };
+		32F9AEA61B21947A009CB430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEA41B21947A009CB430 /* LaunchScreen.xib */; };
+		32F9AEB21B21947A009CB430 /* WinePianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9AEB11B21947A009CB430 /* WinePianoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F9AEAC1B21947A009CB430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F9AE8E1B21947A009CB430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F9AE951B21947A009CB430;
+			remoteInfo = WinePiano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F9AE961B21947A009CB430 /* WinePiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinePiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F9AE9A1B21947A009CB430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F9AE9B1B21947A009CB430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32F9AE9D1B21947A009CB430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32F9AEA01B21947A009CB430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32F9AEA21B21947A009CB430 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32F9AEA51B21947A009CB430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32F9AEAB1B21947A009CB430 /* WinePianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinePianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F9AEB01B21947A009CB430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F9AEB11B21947A009CB430 /* WinePianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePianoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F9AE931B21947A009CB430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F9AEA81B21947A009CB430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F9AE8D1B21947A009CB430 = {
+			isa = PBXGroup;
+			children = (
+				32F9AE981B21947A009CB430 /* WinePiano */,
+				32F9AEAE1B21947A009CB430 /* WinePianoTests */,
+				32F9AE971B21947A009CB430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F9AE971B21947A009CB430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AE961B21947A009CB430 /* WinePiano.app */,
+				32F9AEAB1B21947A009CB430 /* WinePianoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F9AE981B21947A009CB430 /* WinePiano */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AE9B1B21947A009CB430 /* AppDelegate.swift */,
+				32F9AE9D1B21947A009CB430 /* ViewController.swift */,
+				32F9AE9F1B21947A009CB430 /* Main.storyboard */,
+				32F9AEA21B21947A009CB430 /* Images.xcassets */,
+				32F9AEA41B21947A009CB430 /* LaunchScreen.xib */,
+				32F9AE991B21947A009CB430 /* Supporting Files */,
+			);
+			path = WinePiano;
+			sourceTree = "<group>";
+		};
+		32F9AE991B21947A009CB430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AE9A1B21947A009CB430 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F9AEAE1B21947A009CB430 /* WinePianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AEB11B21947A009CB430 /* WinePianoTests.swift */,
+				32F9AEAF1B21947A009CB430 /* Supporting Files */,
+			);
+			path = WinePianoTests;
+			sourceTree = "<group>";
+		};
+		32F9AEAF1B21947A009CB430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AEB01B21947A009CB430 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F9AE951B21947A009CB430 /* WinePiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F9AEB51B21947A009CB430 /* Build configuration list for PBXNativeTarget "WinePiano" */;
+			buildPhases = (
+				32F9AE921B21947A009CB430 /* Sources */,
+				32F9AE931B21947A009CB430 /* Frameworks */,
+				32F9AE941B21947A009CB430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinePiano;
+			productName = WinePiano;
+			productReference = 32F9AE961B21947A009CB430 /* WinePiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F9AEAA1B21947A009CB430 /* WinePianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F9AEB81B21947A009CB430 /* Build configuration list for PBXNativeTarget "WinePianoTests" */;
+			buildPhases = (
+				32F9AEA71B21947A009CB430 /* Sources */,
+				32F9AEA81B21947A009CB430 /* Frameworks */,
+				32F9AEA91B21947A009CB430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F9AEAD1B21947A009CB430 /* PBXTargetDependency */,
+			);
+			name = WinePianoTests;
+			productName = WinePianoTests;
+			productReference = 32F9AEAB1B21947A009CB430 /* WinePianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F9AE8E1B21947A009CB430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ast;
+				TargetAttributes = {
+					32F9AE951B21947A009CB430 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					32F9AEAA1B21947A009CB430 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 32F9AE951B21947A009CB430;
+					};
+				};
+			};
+			buildConfigurationList = 32F9AE911B21947A009CB430 /* Build configuration list for PBXProject "WinePiano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32F9AE8D1B21947A009CB430;
+			productRefGroup = 32F9AE971B21947A009CB430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F9AE951B21947A009CB430 /* WinePiano */,
+				32F9AEAA1B21947A009CB430 /* WinePianoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F9AE941B21947A009CB430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F9AEA11B21947A009CB430 /* Main.storyboard in Resources */,
+				32F9AEA61B21947A009CB430 /* LaunchScreen.xib in Resources */,
+				32F9AEA31B21947A009CB430 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F9AEA91B21947A009CB430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F9AE921B21947A009CB430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F9AE9E1B21947A009CB430 /* ViewController.swift in Sources */,
+				32F9AE9C1B21947A009CB430 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F9AEA71B21947A009CB430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F9AEB21B21947A009CB430 /* WinePianoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F9AEAD1B21947A009CB430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F9AE951B21947A009CB430 /* WinePiano */;
+			targetProxy = 32F9AEAC1B21947A009CB430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F9AE9F1B21947A009CB430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F9AEA01B21947A009CB430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32F9AEA41B21947A009CB430 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F9AEA51B21947A009CB430 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F9AEB31B21947A009CB430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32F9AEB41B21947A009CB430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F9AEB61B21947A009CB430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WinePiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32F9AEB71B21947A009CB430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WinePiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32F9AEB91B21947A009CB430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WinePianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePiano.app/WinePiano";
+			};
+			name = Debug;
+		};
+		32F9AEBA1B21947A009CB430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WinePianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinePiano.app/WinePiano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F9AE911B21947A009CB430 /* Build configuration list for PBXProject "WinePiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F9AEB31B21947A009CB430 /* Debug */,
+				32F9AEB41B21947A009CB430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F9AEB51B21947A009CB430 /* Build configuration list for PBXNativeTarget "WinePiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F9AEB61B21947A009CB430 /* Debug */,
+				32F9AEB71B21947A009CB430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32F9AEB81B21947A009CB430 /* Build configuration list for PBXNativeTarget "WinePianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F9AEB91B21947A009CB430 /* Debug */,
+				32F9AEBA1B21947A009CB430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F9AE8E1B21947A009CB430 /* Project object */;
+}
