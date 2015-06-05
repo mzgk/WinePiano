@@ -34,5 +34,9 @@ class ViewController: UIViewController {
         player?.prepareToPlay()     // 再生時のラグをなくす
         player?.play()              // 再生
     }
+
+    @IBAction func wineTapped(sender: UIButton) {
+        
+    }
 }
 
