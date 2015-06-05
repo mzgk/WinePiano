@@ -36,7 +36,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func wineTapped(sender: UIButton) {
-        
+        switch sender.tag {
+        case 1:
+            println("ワイングラスボタン\(sender.tag)")
+        case 2:
+            println("ワイングラスボタン\(sender.tag)")
+        case 3:
+            println("ワイングラスボタン\(sender.tag)")
+        case 4:
+            println("ワイングラスボタン\(sender.tag)")
+        case 5:
+            println("ワイングラスボタン\(sender.tag)")
+        default:
+            println("どのボタンでもありません")
+        }
     }
 }
 
