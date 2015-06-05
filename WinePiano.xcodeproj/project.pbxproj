@@ -13,6 +13,16 @@
 		32F9AEA31B21947A009CB430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEA21B21947A009CB430 /* Images.xcassets */; };
 		32F9AEA61B21947A009CB430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEA41B21947A009CB430 /* LaunchScreen.xib */; };
 		32F9AEB21B21947A009CB430 /* WinePianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9AEB11B21947A009CB430 /* WinePianoTests.swift */; };
+		32F9AEC71B2194DC009CB430 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEBC1B2194DC009CB430 /* background.png */; };
+		32F9AEC81B2194DC009CB430 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEBD1B2194DC009CB430 /* background@2x.png */; };
+		32F9AEC91B2194DC009CB430 /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEBE1B2194DC009CB430 /* wine.png */; };
+		32F9AECA1B2194DC009CB430 /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEBF1B2194DC009CB430 /* wine@2x.png */; };
+		32F9AECB1B2194DC009CB430 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC11B2194DC009CB430 /* 1.mp3 */; };
+		32F9AECC1B2194DC009CB430 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC21B2194DC009CB430 /* 2.mp3 */; };
+		32F9AECD1B2194DC009CB430 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC31B2194DC009CB430 /* 3.mp3 */; };
+		32F9AECE1B2194DC009CB430 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC41B2194DC009CB430 /* 4.mp3 */; };
+		32F9AECF1B2194DC009CB430 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC51B2194DC009CB430 /* 5.mp3 */; };
+		32F9AED01B2194DC009CB430 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC61B2194DC009CB430 /* BGM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		32F9AEAB1B21947A009CB430 /* WinePianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinePianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F9AEB01B21947A009CB430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F9AEB11B21947A009CB430 /* WinePianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinePianoTests.swift; sourceTree = "<group>"; };
+		32F9AEBC1B2194DC009CB430 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		32F9AEBD1B2194DC009CB430 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		32F9AEBE1B2194DC009CB430 /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine.png; sourceTree = "<group>"; };
+		32F9AEBF1B2194DC009CB430 /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine@2x.png"; sourceTree = "<group>"; };
+		32F9AEC11B2194DC009CB430 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		32F9AEC21B2194DC009CB430 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		32F9AEC31B2194DC009CB430 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		32F9AEC41B2194DC009CB430 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		32F9AEC51B2194DC009CB430 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		32F9AEC61B2194DC009CB430 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +102,8 @@
 				32F9AE9F1B21947A009CB430 /* Main.storyboard */,
 				32F9AEA21B21947A009CB430 /* Images.xcassets */,
 				32F9AEA41B21947A009CB430 /* LaunchScreen.xib */,
+				32F9AEBB1B2194DC009CB430 /* Image */,
+				32F9AEC01B2194DC009CB430 /* Sound */,
 				32F9AE991B21947A009CB430 /* Supporting Files */,
 			);
 			path = WinePiano;
@@ -110,6 +132,30 @@
 				32F9AEB01B21947A009CB430 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F9AEBB1B2194DC009CB430 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AEBC1B2194DC009CB430 /* background.png */,
+				32F9AEBD1B2194DC009CB430 /* background@2x.png */,
+				32F9AEBE1B2194DC009CB430 /* wine.png */,
+				32F9AEBF1B2194DC009CB430 /* wine@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		32F9AEC01B2194DC009CB430 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				32F9AEC11B2194DC009CB430 /* 1.mp3 */,
+				32F9AEC21B2194DC009CB430 /* 2.mp3 */,
+				32F9AEC31B2194DC009CB430 /* 3.mp3 */,
+				32F9AEC41B2194DC009CB430 /* 4.mp3 */,
+				32F9AEC51B2194DC009CB430 /* 5.mp3 */,
+				32F9AEC61B2194DC009CB430 /* BGM.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +238,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F9AECF1B2194DC009CB430 /* 5.mp3 in Resources */,
+				32F9AED01B2194DC009CB430 /* BGM.mp3 in Resources */,
+				32F9AECE1B2194DC009CB430 /* 4.mp3 in Resources */,
+				32F9AECD1B2194DC009CB430 /* 3.mp3 in Resources */,
 				32F9AEA11B21947A009CB430 /* Main.storyboard in Resources */,
+				32F9AEC71B2194DC009CB430 /* background.png in Resources */,
+				32F9AEC91B2194DC009CB430 /* wine.png in Resources */,
 				32F9AEA61B21947A009CB430 /* LaunchScreen.xib in Resources */,
+				32F9AECB1B2194DC009CB430 /* 1.mp3 in Resources */,
+				32F9AEC81B2194DC009CB430 /* background@2x.png in Resources */,
+				32F9AECC1B2194DC009CB430 /* 2.mp3 in Resources */,
 				32F9AEA31B21947A009CB430 /* Images.xcassets in Resources */,
+				32F9AECA1B2194DC009CB430 /* wine@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
