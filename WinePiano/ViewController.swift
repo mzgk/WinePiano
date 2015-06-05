@@ -12,7 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var player:AVAudioPlayer?
-    var winGlass:AVAudioPlayer?
+    var soundManager = SEManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,45 +37,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func wineTapped(sender: UIButton) {
+        var sound:String = ""
+
         switch sender.tag {
         case 1:
             println("ワイングラスボタン\(sender.tag)")
-            let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent("1.mp3")
-            let url:NSURL? = NSURL.fileURLWithPath(soundPath)
-            winGlass = AVAudioPlayer(contentsOfURL: url, error: nil)
-            winGlass?.prepareToPlay()
-            winGlass?.play()
+            sound = "1.mp3"
         case 2:
             println("ワイングラスボタン\(sender.tag)")
-            let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent("2.mp3")
-            let url:NSURL? = NSURL.fileURLWithPath(soundPath)
-            winGlass = AVAudioPlayer(contentsOfURL: url, error: nil)
-            winGlass?.prepareToPlay()
-            winGlass?.play()
+            sound = "2.mp3"
         case 3:
             println("ワイングラスボタン\(sender.tag)")
-            let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent("3.mp3")
-            let url:NSURL? = NSURL.fileURLWithPath(soundPath)
-            winGlass = AVAudioPlayer(contentsOfURL: url, error: nil)
-            winGlass?.prepareToPlay()
-            winGlass?.play()
+            sound = "3.mp3"
         case 4:
             println("ワイングラスボタン\(sender.tag)")
-            let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent("4.mp3")
-            let url:NSURL? = NSURL.fileURLWithPath(soundPath)
-            winGlass = AVAudioPlayer(contentsOfURL: url, error: nil)
-            winGlass?.prepareToPlay()
-            winGlass?.play()
+            sound = "4.mp3"
         case 5:
             println("ワイングラスボタン\(sender.tag)")
-            let soundPath = NSBundle.mainBundle().bundlePath.stringByAppendingPathComponent("5.mp3")
-            let url:NSURL? = NSURL.fileURLWithPath(soundPath)
-            winGlass = AVAudioPlayer(contentsOfURL: url, error: nil)
-            winGlass?.prepareToPlay()
-            winGlass?.play()
+            sound = "5.mp3"
         default:
             println("どのボタンでもありません")
         }
+        soundManager.sePlay(sound)
     }
 }
 
