@@ -23,6 +23,7 @@
 		32F9AECE1B2194DC009CB430 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC41B2194DC009CB430 /* 4.mp3 */; };
 		32F9AECF1B2194DC009CB430 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC51B2194DC009CB430 /* 5.mp3 */; };
 		32F9AED01B2194DC009CB430 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32F9AEC61B2194DC009CB430 /* BGM.mp3 */; };
+		32F9AED21B21A066009CB430 /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9AED11B21A066009CB430 /* SEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		32F9AEC41B2194DC009CB430 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
 		32F9AEC51B2194DC009CB430 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
 		32F9AEC61B2194DC009CB430 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		32F9AED11B21A066009CB430 /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				32F9AE9B1B21947A009CB430 /* AppDelegate.swift */,
 				32F9AE9D1B21947A009CB430 /* ViewController.swift */,
 				32F9AE9F1B21947A009CB430 /* Main.storyboard */,
+				32F9AED11B21A066009CB430 /* SEManager.swift */,
 				32F9AEA21B21947A009CB430 /* Images.xcassets */,
 				32F9AEA41B21947A009CB430 /* LaunchScreen.xib */,
 				32F9AEBB1B2194DC009CB430 /* Image */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F9AED21B21A066009CB430 /* SEManager.swift in Sources */,
 				32F9AE9E1B21947A009CB430 /* ViewController.swift in Sources */,
 				32F9AE9C1B21947A009CB430 /* AppDelegate.swift in Sources */,
 			);
